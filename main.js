@@ -15,7 +15,7 @@ bot.on("ready",() =>{
     console.log("Bot Ready !");
 })
 
-bot.login("NDEwNDIzOTg3OTMyNDk1ODcz.DVs8pQ.9TfNitaRdkNONX0Rl-Xhhyqnmjc");
+bot.login(process.env.TOKEN);
 
 bot.on("message", message => {
     if (message.content === "T ki ?"){
